@@ -4,6 +4,7 @@ Workshop-level context so the estimate can produce a calendar/sprint view instea
 This is NOT an ideation input — point `pm-plan-and-estimate` at it, not `pm-ideation`.
 
 ## Team
+US-based; blended fully loaded rate ≈ **$1,400/day** (use this for both cost methods).
 - 2 backend engineers (C# / .NET)
 - 1 frontend engineer (Lit / TypeScript backoffice)
 - 1 full-stack engineer
