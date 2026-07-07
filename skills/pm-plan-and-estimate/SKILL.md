@@ -174,7 +174,7 @@ cloned Umbraco repo.
   This skill stops here.
 
 **More examples:** `${CLAUDE_SKILL_DIR}/examples/walkthrough.md` (one example per step, 0–6) and
-`${CLAUDE_SKILL_DIR}/examples/sample-output.md` (excerpts of the planning doc, estimate, and spec). **These examples are illustrative of one scenario — derive names, paths, and numbers only from the actual inputs of this run; never copy citations or figures from examples.**
+`${CLAUDE_SKILL_DIR}/examples/output-format.md` (excerpts of the planning doc, estimate, and spec). **Examples are structural only — derive names, paths, and numbers from the actual inputs of this run; never copy citations or figures from examples.**
 
 ## Common Pitfalls
 

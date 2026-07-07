@@ -1,4 +1,4 @@
-# EXAMPLE OUTPUT — pm-ideation (excerpts)
+# Output format — pm-ideation (excerpts)
 
 The parts a finished deliverable should contain. **Structural only — never copy figures,
 citations, or conclusions from examples.**

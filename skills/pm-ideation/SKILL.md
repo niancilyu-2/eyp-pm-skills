@@ -129,7 +129,7 @@ feature inventories (.docx), and a roadmap deck (.pptx).
   reshape the recommendation, not just decorate it.
 
 **More examples:** `${CLAUDE_SKILL_DIR}/examples/walkthrough.md` (one example per step, 0–5) and
-`${CLAUDE_SKILL_DIR}/examples/sample-output.md` (a full finished deliverable). **These examples are illustrative of one scenario — derive names, paths, and numbers only from the actual inputs of this run; never copy citations or figures from examples.**
+`${CLAUDE_SKILL_DIR}/examples/output-format.md` (what a finished deliverable contains). **Examples are structural only — derive names, paths, and numbers from the actual inputs of this run; never copy citations or figures from examples.**
 
 ## Common Pitfalls
 

@@ -1,4 +1,4 @@
-# EXAMPLE OUTPUT — pm-plan-and-estimate (excerpts)
+# Output format — pm-plan-and-estimate (excerpts)
 
 The parts to imitate, with figures kept generic. **Never copy paths, numbers, or citations
 from examples.**

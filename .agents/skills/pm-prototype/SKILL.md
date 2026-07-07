@@ -160,7 +160,7 @@ what consequence).
   no dead links, no purple gradients.
 
 **More examples:** `.agents/skills/pm-prototype/examples/walkthrough.md` (one example per step, 0–5) and
-`.agents/skills/pm-prototype/examples/sample-output.md` (what a finished prototype contains). **These examples are illustrative of one scenario — derive names, paths, and numbers only from the actual inputs of this run; never copy citations or figures from examples.**
+`.agents/skills/pm-prototype/examples/output-format.md` (what a finished prototype contains). **Examples are structural only — derive names, paths, and numbers from the actual inputs of this run; never copy citations or figures from examples.**
 
 ## Common Pitfalls
 

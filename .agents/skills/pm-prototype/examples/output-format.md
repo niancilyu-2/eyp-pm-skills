@@ -1,4 +1,4 @@
-# EXAMPLE OUTPUT — pm-prototype (what a finished build contains)
+# Output format — pm-prototype (what a finished build contains)
 
 The deliverable is a single self-contained `.html` plus a `-notes.md` handoff payload.
 **Structural only** — never copy content into your own build; the scaffold it starts from is
