@@ -1,0 +1,15 @@
+{
+  "name": "eyp-pm-skills",
+  "description": "Three PM/CPO workflow skills — ideation (signals to roadmap), prototyping (problem to clickable preview), and plan-and-estimate (prototype to eng-ready plan + cost). Every claim cited, every estimate a range.",
+  "version": "0.2.0",
+  "author": {
+    "name": "PM AI Workshop"
+  },
+  "keywords": [
+    "product-management",
+    "roadmap",
+    "prototyping",
+    "estimation",
+    "pm"
+  ]
+}

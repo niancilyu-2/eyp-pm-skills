@@ -1,0 +1,15 @@
+{
+  "name": "eyp-pm-skills",
+  "owner": {
+    "name": "PM AI Workshop"
+  },
+  "description": "Marketplace hosting the PM AI Workshop plugin (3 PM workflow skills).",
+  "plugins": [
+    {
+      "name": "eyp-pm-skills",
+      "source": "./",
+      "description": "Three PM/CPO workflow skills: pm-ideation, pm-prototype, pm-plan-and-estimate.",
+      "category": "product-management"
+    }
+  ]
+}

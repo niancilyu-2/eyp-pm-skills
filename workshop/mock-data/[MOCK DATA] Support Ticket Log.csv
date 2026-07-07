@@ -1,0 +1,42 @@
+Ticket ID,Opened Raw,Account,Plan Tier,Area Raw,Subject,Status,Escalated,Agent Notes Raw
+SUP-30112,2026-01-08,MetroStyle Apparel,Enterprise,personalisation,Cannot export which landing-page variant won last quarter,closed - unresolved,Yes,Customer built manual GA join; churned in May
+SUP-30144,01/22/26,Northstar Retail Group,Enterprise,block-grid,Default hero shows instead of segment variant in QA,closed - workaround,Yes,Repro intermittent; advised template-level check
+SUP-30161,2026-02-02,HarborOne Insurance,Enterprise,segments,Stopped A/B variant went live again after page rename,escalated,Yes,Compliance involved on customer side; root cause tbd
+SUP-30177,Feb 9 2026,Meridian Health Network,Enterprise,Seg/Preview,Segmented field values show blank after save,open,Yes,Editors screenshot each segment as workaround
+SUP-30178,Feb 9 2026,Meridian Health Network,Enterprise,segments-preview,Duplicate of SUP-30177 raised by second editor,closed - duplicate,No,Merged
+SUP-30190,2026-02-17,GreenLine Grocery,Enterprise,performance,Backoffice very slow on promo-heavy landing pages,open,No,40+ blocks on page; advised splitting page
+SUP-30205,02/25/2026,Beacon Clinics,Enterprise,preview,Stakeholder preview link shows default not intl variant,open,Yes,Asked for per-segment preview URL; not available
+SUP-30218,2026-03-04,NimblePay,Enterprise,audit,Need report of which variant was live during March promo,open,Yes,Legal request on customer side
+SUP-30229,3/11/26,BluePeak Telecom,Enterprise,personalization,Broadband offer module requires dev QA for each segment,open,No,Marketing wants self-serve preview
+SUP-30235,2026-03-15,BrightCart,Enterprise,segments,Segment values blank in backoffice grid after publish,open,Yes,Same signature as SUP-30177
+SUP-30241,Mar 20 2026,Redwood Bank,Enterprise,compliance,Need retirement audit for deposit-offer variants,open,Yes,Renewed with exec escalation
+SUP-30248,2026-03-24,Oak & Ember,Professional,reporting,How do we see lift per localized offer?,closed - answered,No,Pointed to manual analytics export; customer unhappy
+SUP-30253,03/29/26,Atlas Equipment Direct,Enterprise,performance,Dealer landing pages slow to edit; weekly batching,closed - unresolved,Yes,Churned Q1; cited experiment proof gap in exit call
+SUP-30266,2026-04-02,Prism Auto Finance,Enterprise,segments,Auditable record of loan-offer segment tests,open,No,Compliance-adjacent ask
+SUP-30271,Apr 6 2026,Astra Travel Insurance,Professional,approvals,Region-level approval for experiment variants,open,No,Mixed workflow + experiment ask
+SUP-30284,2026-04-11,Cobalt Fitness,Professional,analytics,Stop a losing variant without deleting drafts,open,No,No stop/promote control today
+SUP-30301,04/19/26,Radiant Beauty,Enterprise,block-grid,Editor slows with 6 localized promo variants on page,open,Yes,Also asked about AI variant drafts
+SUP-30307,2026-04-23,Tandem Sports,Enterprise,ai,Request: AI suggestions for next membership page tests,open,No,Feature request; logged
+SUP-30315,4/29/2026,CityBridge Transit,Professional,segments,Retired alert variant republished by content sync,escalated,Yes,Public-alert sensitivity
+SUP-30322,2026-05-05,Evergreen Labs,Professional,Seg/Preview,Localized segment preview unreliable for DE pages,open,No,Culture+segment combination
+SUP-30328,May 8 2026,Valeo Foodservice,Professional,reporting,Sales needs proof which account offer version won,open,No,Manual joins today
+SUP-30336,2026-05-14,Orchid Home Goods,Enterprise,campaign,One place for idea->variant->approval->result?,open,Yes,Pre-expansion requirement per CS
+SUP-30349,05/21/26,Ridgeway Manufacturing,Professional,segments,Dealer-role variant preview before publish,open,No,B2B role personalization
+SUP-30355,2026-05-27,Luma Travel Co.,Professional,ai,AI test-backlog suggestions from past results,open,No,Repeated ask from lifecycle team
+SUP-30361,Jun 1 2026,Mosaic University,Professional,preview,Share segment preview links with admissions team,closed - unresolved,No,Churned; cited preview trust in exit survey
+SUP-30368,2026-06-04,GreenLine Grocery,Enterprise,segments,Loyalty segment values blank after bulk publish,open,Yes,Second ticket this quarter
+SUP-30374,06/09/26,BluePeak Telecom,Enterprise,reporting,Offer test dashboard for commercial team,open,No,Duplicate-ish of SUP-30229 per agent
+SUP-30380,2026-06-12,NimblePay,Enterprise,segments,Governed experiment flow for checkout messaging,open,Yes,Conversion team vocal at QBR
+SUP-30386,Jun 15 2026,Beacon Clinics,Enterprise,preview,Follow-up: preview links still default for specialty pages,open,Yes,Expansion blocked per CS note
+SUP-30391,2026-06-18,HarborOne UK,Enterprise,segments,Same reappearing-variant question as parent account,open,No,Child account; see SUP-30161
+SUP-30399,06/21/26,Meridian Health Network,Enterprise,segments,Screenshot QA adding 10-12 hrs per campaign,open,Yes,Third ticket on same theme
+SUP-30402,2026-06-23,Northstar Retail Group,Enterprise,campaign,Post-churn data export request,closed,No,Offboarding
+SUP-30154,2026-01-28,Finch Finance,Enterprise,security,Deployment evidence export for CISO review,closed - answered,No,Security docs shared
+SUP-30186,02/14/26,Summit Utilities,Professional,delivery-api,Webhook filters for outage page updates,open,No,Headless ops request
+SUP-30211,2026-03-01,Civic Grants Office,Professional,accessibility,Bulk alt-text audit for grant pages,closed - answered,No,Pointed to media tools
+SUP-30258,3/31/26,Pine & Peak Media,Standard,ai,AI article summaries in editor?,closed - answered,No,Roadmap candidate shared
+SUP-30277,2026-04-08,Sterling Legal,Standard,approvals,Approval history export for articles,closed - answered,No,Workflow guidance sent
+SUP-30293,04/15/26,Helio Marketplace,Standard,marketplace,Package compatibility after upgrade,closed - answered,No,Version matrix shared
+SUP-30343,2026-05-18,Nova Public Media,Standard,editor,RTE feels sluggish on long articles,open,No,Perf tips shared
+SUP-30358,May 30 2026,Morrow Museum Network,Standard,media,Bulk metadata edit for collection images,closed - answered,No,Media library guidance
+SUP-30407,2026-06-24,Kestrel Outdoors,Standard,billing,Invoice copy request,closed,No,Routine

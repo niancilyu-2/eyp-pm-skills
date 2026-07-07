@@ -1,0 +1,11 @@
+Account,Industry,Tier,ARR_USD,Status,Primary_Reason,Competitor_Considered,Notes
+Helix Studios,Creative agency,Enterprise,220000,Churned,No time tracking,Cadence,Needs billable hours per client
+Northpeak Consulting,Consulting,Enterprise,300000,At-Risk,No capacity planning,Cadence,Can't plan consultant utilization
+Bluefin Dev Shop,Software services,Mid-Market,160000,Churned,No time tracking,Orbit,Wants timesheets + utilization reports
+Quill Marketing,Marketing,Mid-Market,90000,At-Risk,No capacity planning,Orbit,Can't see who is overloaded
+Saffron Labs,Biotech,Mid-Market,70000,Churned,Weak search,Notion,Can't find old docs
+Cedar HR,HR tech,Mid-Market,50000,At-Risk,Weak search,—,Search returns too much noise
+Tin Roof Games,Gaming,Standard,120000,At-Risk,Price,—,Procurement wants a discount
+Maple Retail,Retail,Standard,40000,Churned,Price,—,Budget cut
+Orchard Health,Healthcare,Standard,30000,Churned,Weak mobile,—,Field staff need a real mobile app
+Lark Nonprofit,Non-profit,Standard,25000,Renewed,—,—,Happy; small team, no advanced needs

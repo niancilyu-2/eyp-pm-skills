@@ -1,0 +1,25 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validator dependency
+        run: pip install pyyaml
+
+      - name: Skill conformance + triggers + Codex mirror drift
+        run: ./scripts/validate.sh
+
+      - name: Ingest helpers are syntactically sound
+        run: python3 -m py_compile scripts/ingest/*.py scripts/build-codex-skills.py

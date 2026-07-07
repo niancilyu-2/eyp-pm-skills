@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/ingest/read_xlsx.py:*)",
+      "Bash(python3 scripts/ingest/read_docx.py:*)",
+      "Bash(python3 scripts/ingest/read_pptx.py:*)",
+      "Bash(.venv-workshop/bin/python scripts/ingest/read_xlsx.py:*)",
+      "Bash(.venv-workshop/bin/python scripts/ingest/read_docx.py:*)",
+      "Bash(.venv-workshop/bin/python scripts/ingest/read_pptx.py:*)",
+      "Bash(pdftotext:*)",
+      "Bash(unzip -p:*)",
+      "Bash(unzip -l:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git log:*)",
+      "Bash(wc:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cloc:*)",
+      "Bash(scc:*)"
+    ]
+  }
+}

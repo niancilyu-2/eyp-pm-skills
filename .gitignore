@@ -1,0 +1,21 @@
+# The real Umbraco-CMS clone is large and fetched on demand — never commit it.
+workshop/codebase/
+
+# Your own dropped-in inputs stay local (keep the folder + its README only).
+workshop/your-data/*
+!workshop/your-data/README.md
+
+# Skill-generated artifacts (planning docs, prototypes, specs) — keep the folder only.
+workshop/outputs/*
+!workshop/outputs/.gitkeep
+
+# Python virtualenv used by the mock-data generators
+.venv-workshop/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated prototype scratch / node noise
+node_modules/
+*.log
+.DS_Store

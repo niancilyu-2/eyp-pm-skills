@@ -1,0 +1,3 @@
+# The Codex mirror is GENERATED from skills/ by scripts/build-codex-skills.py.
+# Mark it so GitHub collapses its diffs in PRs and reviewers see only the source changes.
+.agents/skills/** linguist-generated=true

@@ -1,0 +1,21 @@
+Issue ID,Title,Labels Raw,Votes,Comments,Opened,Status
+ISS-1042,Segmented property values appear blank in backoffice after save,area/backoffice; segments; bug?,214,63,2025-11-04,open
+ISS-1088,Stopped segment variant reappears after unrelated Save and Publish,segments; publishing; data-integrity,198,71,2025-12-11,open
+ISS-1121,No way to share a preview link pinned to a specific segment,preview; segments; feature-request,175,44,2026-01-19,open
+ISS-1155,Block Grid editor slow on pages with 30+ blocks and variants,performance; block-grid,169,58,2026-02-02,open
+ISS-0996,Variant fallback renders default hero for segmented Block Grid in some cultures,block-grid; segments; culture,142,39,2025-09-27,open
+ISS-1203,Audit log should record which segment variant was live and when,audit; segments; compliance,121,27,2026-03-08,open
+ISS-1240,Marketer-facing view of experiment/variant results,feature-request; analytics; marketers,104,31,2026-03-30,open
+ISS-1266,Culture + segment publish matrix is confusing for editors,editor-ux; segments; culture,88,22,2026-04-14,open
+ISS-1178,Webhook filters for content events,delivery-api; webhooks,64,18,2026-02-21,open
+ISS-1195,Content Delivery API pagination for large collections,delivery-api; performance,59,14,2026-03-01,open
+ISS-1290,Bulk alt-text editing in media library,media; accessibility,47,12,2026-05-02,open
+ISS-1234,Preview tokens should expire configurably,delivery-api; security,41,9,2026-03-25,open
+ISS-1305,RTE paste from Word keeps odd spans,editor-ux; rte,38,16,2026-05-11,open
+ISS-1310,AI-generated meta descriptions and summaries,feature-request; ai; editorial,36,21,2026-05-15,open
+ISS-1122,Duplicate of ISS-1121 preview by segment,preview; duplicate,12,3,2026-01-20,closed
+ISS-1187,Image crop presets per media type,media,29,7,2026-02-25,open
+ISS-1276,Approval queue filters by content type,workflow-ux,26,8,2026-04-22,open
+ISS-1330,Environment variable UI for cloud deploys,cloud; devex,22,5,2026-06-01,open
+ISS-1015,Segment picker hard to find for new editors,editor-ux; segments,77,19,2025-10-12,open
+ISS-1352,Confidence intervals / stop rules for content variants,feature-request; analytics; segments,93,25,2026-06-14,open
