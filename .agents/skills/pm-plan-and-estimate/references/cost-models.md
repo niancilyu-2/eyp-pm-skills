@@ -16,13 +16,16 @@ cd <codebase-path>
 git ls-files -- '<affected-subsystem>/**' \
   | grep -Ev '/(node_modules|dist|vendor|build|bin|obj|.+\.min\.)' \
   | grep -E '\.(<relevant-extensions>)$' \
-  | xargs wc -l | tail -1
+  | xargs cat | wc -l
 ```
 Fallback for non-git checkouts (e.g. a zip snapshot — `git ls-files` won't work there):
 ```bash
 find <affected-subsystem> -type f -regextype posix-extended -regex '.*\.(<relevant-extensions>)' \
-  | grep -Ev '/(node_modules|dist|vendor|build|bin|obj)/' | xargs wc -l | tail -1
+  | grep -Ev '/(node_modules|dist|vendor|build|bin|obj)/' | xargs cat | wc -l
 ```
+Use `xargs cat | wc -l`, not `xargs wc -l | tail -1`: on long file lists xargs splits into
+batches, `wc` prints one `total` per batch, and `tail -1` silently reports only the last batch —
+an undercount that still *looks* like a verified number.
 Adjust the glob to the subsystems you scoped. **Exclude** generated, vendored, minified, and build
 output — code humans didn't hand-write shouldn't inflate the estimate. Derive paths and extensions
 from the actual repo you were given — never from an example.
