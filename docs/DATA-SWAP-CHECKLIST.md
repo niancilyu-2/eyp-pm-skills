@@ -17,10 +17,9 @@ them* bake in the current scenario's numbers and filenames.
 - [ ] the facilitator guide (private companion repo) — every "Expected output" block, the headline $ figures,
       account counts, and the money-demo filename (`mv workshop/mock-data/<file> /tmp/`).
 - [ ] The **Examples** sections in all three `skills/*/SKILL.md` and each skill's
-      `examples/walkthrough.md` + `examples/sample-output.md` — either rewrite for the new scenario
-      or verify the "illustrative — never copy" guard is intact and accept the mismatch.
-      **Best practice:** after a dry run on the new data, replace the sample outputs with real
-      captured output.
+      `examples/walkthrough.md` + `examples/output-format.md` — these are structural (no scenario,
+      no figures), so they normally need no change; just verify the "never copy figures" guard is
+      intact.
 
 ## 3. Rebuild and verify
 - [ ] `python3 scripts/build-codex-skills.py` — resync the Codex mirror (**required** after any

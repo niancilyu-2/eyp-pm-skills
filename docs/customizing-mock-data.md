@@ -16,9 +16,9 @@ collaboration app "Tideflow"). Run
 smoke test. It's built with the same rigor (triangulating numbers, counter-signals, a roadmap that
 omits the gap) and doubles as a copyable template. See `workshop/sample-data/README.md`.
 
-Each skill also ships an **`examples/`** folder: `walkthrough.md` (one worked example per step on the
-Umbraco scenario) and `sample-output.md` (a full finished deliverable) — useful for knowing what
-"good" output looks like before you point a skill at your own data.
+Each skill also ships an **`examples/`** folder: `walkthrough.md` (the shape of a good run, step
+by step) and `output-format.md` (what a finished deliverable contains). Both are structural only —
+no scenario, no figures — so they work unchanged with any data you swap in.
 
 ## Three ways to swap
 
