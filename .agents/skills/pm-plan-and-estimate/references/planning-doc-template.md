@@ -26,6 +26,9 @@ real work and cite real code paths.
 | B | … | … | … | … | why not |
 | C | … | … | … | … | why not |
 
+**New vs. reused (one line each — answers "does this need new backend work?" at a glance):**
+new DB objects/migrations: […] · new APIs: […] · new UI surfaces: […] · reused/extended: […]
+
 ## 4. Milestones (bucketed; each demoable)
 > Buckets: **E**ngineering / **O**perational / **R**ollout. Risk: 🔴 high / 🟡 medium / 🟢 low.
 
@@ -48,6 +51,12 @@ in-scope milestone, explicitly deferred, or N/A with a reason.
 | API surface (management + delivery) and API-doc regeneration | | |
 | Migrations + upgrade-path registration | | |
 | Deprecated surfaces you depend on (from the spec's deprecation check) | | |
+
+## 4c. Descope ladder (if the estimate must shrink)
+Cut in this order; each rung names what's removed, effort saved, and the risk to the user need.
+| Cut (in order) | Effort saved | Risk to the user need |
+|----------------|--------------|------------------------|
+| … | … | … |
 
 ## 5. Risks, Assumptions, Dependencies (RAD)
 - **Risks:** [+ mitigation] 🔴/🟡/🟢

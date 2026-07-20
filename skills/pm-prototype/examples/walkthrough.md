@@ -13,7 +13,8 @@ and copy from the actual problem statement of your run.
 ### Step 1 — Frame the scope
 > Confirm the hypothesis (the riskiest assumption, restated as testable). List the screens —
 > usually 3-5: a list view, a create flow, the trust-moment screen the hypothesis hinges on, and
-> a results/outcome view. Name the persona in one line.
+> a results/outcome view. Name the persona in one line. Close with a ~10-line flow map (screen →
+> key elements → next action) and get an OK before any HTML.
 
 ### Step 2 — Scaffold the single file
 > Copy `templates/prototype-template.html` → `workshop/outputs/<feature>-prototype.html`.

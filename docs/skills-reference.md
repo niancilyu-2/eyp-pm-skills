@@ -76,3 +76,12 @@ appendix). Every claim cites its source.
 
 **Hand off to:** engineering's `thorough-writing-plans` / `superpowers:writing-plans`. The PM skills
 stop here — they never write code.
+
+## Where requirements live in the chain
+
+There is deliberately no user-story/requirements step between ideation and prototype. WF1 frames
+the problem and success criteria; the prototype's `-notes.md` records the hypothesis, chosen
+scope, and assumptions (the editable interim artifact); formal requirements — MoSCoW priorities,
+user stories, acceptance criteria — land in WF3's spec, *after* the prototype has taught you what
+to require. Generating requirements before anything clickable exists tends to produce documents
+nobody rereads.

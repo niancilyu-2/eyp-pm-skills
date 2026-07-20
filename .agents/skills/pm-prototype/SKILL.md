@@ -89,6 +89,9 @@ up the core flow?"** and **"Who's the persona and context?"** Offer numbered def
 1. The smallest flow that tests the hypothesis (recommended)
 2. A broader flow covering edge cases
 3. A single hero screen
+Then, before writing any HTML, reply with a **compact flow map** — each screen with its 2-4 key
+elements and the action that moves to the next screen (~10 lines of text) — and get an explicit
+OK. A wrong flow is cheap to fix here and expensive to fix in HTML.
 Keep scope to what tests the hypothesis. **Scope rule (always, not just in workshops):** adjacent
 governance/admin surfaces — audit consoles, approval chains, lifecycle admin — are represented by
 at most **one status chip + one caption line**; if the evidence pulls you toward plumbing, record it
@@ -117,7 +120,9 @@ line); reserve toasts for confirmations of changes the screen already shows.
 ### Step 4 — Open, review, iterate
 Tell the PM to open the file directly (double-click / `file://`) or serve with `python3 -m
 http.server`. Reviewers use the 💬 overlay to pin comments and **Export feedback** (JSON); iterate
-from that JSON.
+from that JSON. To put it in front of external users, see "Sharing it" in
+`.agents/skills/pm-prototype/references/zero-build-build.md` — it's one self-contained HTML file, so a
+static link beats an email attachment.
 
 ### Step 5 — (Optional) React escalation
 Only if heavy state/routing genuinely demands it. Choose a path (details in

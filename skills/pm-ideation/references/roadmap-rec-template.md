@@ -38,5 +38,6 @@ State explicitly what the new recommendation pushes down, and why that trade is 
 
 ## What to validate next
 1. [missing evidence that would most change the call — and how to get it cheaply]
-2. […]
+2. [one narrow probe buildable in ≤1 person-week that tests real demand — a fake-door, a
+   concierge run, or a stub of the smallest valuable slice]
 3. […]

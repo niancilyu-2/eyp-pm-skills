@@ -27,9 +27,16 @@ user-centered **problem statement** and a **roadmap recommendation**. The skill 
 regardless of format, quantifies how strong each signal really is, triangulates across sources,
 hunts for disconfirming evidence, and shows its work.
 
-Use it at the front of the product cycle, when you have raw signal and need a defensible direction.
+Use it at the front of the product cycle, when you have raw signal and need a defensible
+direction — typically quarterly planning, a fresh batch of signals (churn export, call notes,
+review pull), or before pitching a direction to leadership. It's a point-in-time exercise: re-run
+when the inputs change materially, not on a schedule. (Beyond a workshop, the same flow can sit on
+continuously updated sources — support queues, idea boards, usage data.)
+
 It is **gap-agnostic**: it has no opinion about what the answer "should" be; the evidence decides.
-The output is built to be checked — every claim cited, every gap named.
+Expect a **ranked theme table plus one scored recommendation** — which may be a single program
+rather than a list of small features, if that's where the evidence converges. The output is built
+to be checked — every claim cited, every gap named.
 
 ## Key Concepts
 
@@ -79,8 +86,12 @@ stated in their units (hours saved, risk removed, outcome enabled) and quantifie
 evidence allows — and **who is NOT asking** (segments/renewed accounts — a required field). Rank by
 customer value delivered × commercial impact (ARR/reach), not by who was loudest or most recent:
 revenue at risk is the *evidence* that customer value is going unmet, not the value itself.
+If the org already has a theme taxonomy and the user supplies it, pressure-test those themes
+against the data instead of inventing a parallel set — and say where the data doesn't fit them.
 
 ### Step 3 — Competitive & roadmap gap analysis
+If no competitor input exists, skip the matrix, say so, and continue with the roadmap
+cross-reference — don't build one from memory.
 Build a feature-comparison matrix from the competitor analysis, rating each capability on a
 consistent scale: **Full / Partial / None / Unknown**. Use **Unknown** whenever the source is silent
 — never infer a "None". Mark each competitor claim **verified** (from a cited source) vs.
@@ -94,7 +105,9 @@ Run the 5-whys, then write the statement using
 `${CLAUDE_SKILL_DIR}/references/problem-statement-template.md`: the empathy framing (I am / trying
 to / but / because / which makes me feel) as the core, a one-line impact/why-now note where the
 evidence supports it, and a **Success criteria** table (baseline · target · timeline + a guardrail)
-defining what "solved" looks like. Cite every clause; lead with a one-line summary.
+defining what "solved" looks like. If the inputs include a product-goals/KPI note (e.g.
+`workshop/product-goals.md`), express the criteria in those KPIs — leading indicators first,
+commercial figures as the supporting evidence. Cite every clause; lead with a one-line summary.
 
 ### Step 5 — Roadmap recommendation (scored + challenged)
 Use `${CLAUDE_SKILL_DIR}/references/roadmap-rec-template.md`: transparent RICE (sourced inputs +

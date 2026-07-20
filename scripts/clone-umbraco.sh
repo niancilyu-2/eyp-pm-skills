@@ -20,11 +20,12 @@ mkdir -p "$HERE/workshop/codebase"
 
 if [ "${1:-}" == "--full" ]; then
   echo "Full clone of $REPO -> $DEST ..."
-  git clone "$REPO" "$DEST"
+  git clone -c core.longpaths=true "$REPO" "$DEST"
 else
   echo "Shallow clone (depth 1) of $REPO -> $DEST ..."
-  git clone --depth 1 "$REPO" "$DEST"
+  git clone -c core.longpaths=true --depth 1 "$REPO" "$DEST"
 fi
 
 echo "Done. Umbraco-CMS is at: $DEST"
+# core.longpaths avoids checkout failures on Windows (deeply nested frontend paths).
 echo "Tip: pm-plan-and-estimate scopes its analysis to the affected subsystems, not the whole repo."

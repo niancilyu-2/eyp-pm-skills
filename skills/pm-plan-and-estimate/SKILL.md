@@ -34,6 +34,11 @@ The accuracy boost over a human guess is **grounding** — estimates cite the ac
 subsystems the work touches, ranges replace false precision, and two opposing perspectives debate
 the number before it's committed.
 
+Much of this work sits in engineering's domain; how far a PM should run with it depends on the
+org's PM↔eng split. The intent is to arrive with a grounded draft — gauge feasibility early, save
+engineering from estimating every candidate feature from scratch — not to bypass them. The output
+is always verified by engineering before anything is committed.
+
 ## Key Concepts
 
 ### The rigor layer (load this first)

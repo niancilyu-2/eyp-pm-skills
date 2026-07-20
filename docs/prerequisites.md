@@ -15,6 +15,10 @@ nearly identical.
 5. **A clone of this repo** — `niancilyu-2/eyp-pm-skills` is public:
    `git clone https://github.com/niancilyu-2/eyp-pm-skills.git` then run your agent **from the repo
    root** (the plugin install alone does not deliver the workshop data — paths are repo-relative).
+   Never used git or a terminal? Follow the appendix at the bottom, step by step.
+6. **Agent settings** — use your agent's strongest reasoning tier (Claude Code: the default
+   Opus/Sonnet model is fine; Codex: GPT-5-class at Medium reasoning or higher — a tester ran the
+   full chain on GPT-5.5/Medium successfully). Workflow 3 benefits most from stronger reasoning.
 
 ## Optional (only beyond the core path)
 6. **Node 18+ and npm** — only for `pm-prototype`'s React escalation paths (zero-build HTML needs none).
@@ -31,7 +35,12 @@ nearly identical.
 
 ## Windows
 All documented commands are bash/POSIX. On Windows, use **WSL** (or Git Bash for the simple ones) —
-native PowerShell is not supported by the docs as written.
+native PowerShell is not supported by the docs as written. Two Windows-specific notes:
+- **Long paths:** before cloning the Umbraco codebase, run `git config --global core.longpaths true`
+  (the clone script also sets it per-clone). Without it, checkout fails on deeply nested frontend
+  files even though the clone appears to succeed.
+- If IT policy blocks WSL, Git Bash (installed with Git for Windows) covers everything in the core
+  path.
 
 ## Facilitator pre-stage
 - Pre-clone Umbraco (`./scripts/clone-umbraco.sh`) or hand out a snapshot.
@@ -41,3 +50,29 @@ native PowerShell is not supported by the docs as written.
 - Have everyone clone the repo **before** the session (venue Wi-Fi + 30 simultaneous clones is the
   bottleneck; the repo itself is small, but the optional Umbraco clone is ~150 MB — pre-stage that
   or run WF3 as a facilitator-only demo).
+
+## Appendix — never used git or a terminal?
+
+Type these lines one at a time, pressing Enter after each. Lines starting with `#` are comments —
+don't type those.
+
+**Windows** (open *Git Bash* from the Start menu — it comes with Git for Windows):
+```bash
+cd ~/Documents
+git config --global core.longpaths true
+git clone https://github.com/niancilyu-2/eyp-pm-skills.git
+cd eyp-pm-skills
+# now start your agent from this folder: `claude` (Claude Code) or `codex`
+```
+
+**Mac** (open *Terminal* from Spotlight — press Cmd+Space, type "Terminal"):
+```bash
+cd ~/Documents
+git clone https://github.com/niancilyu-2/eyp-pm-skills.git
+cd eyp-pm-skills
+# now start your agent from this folder: `claude` (Claude Code) or `codex`
+```
+
+If `git` says "command not found", install it first: Windows — https://git-scm.com/download/win
+(accept the defaults); Mac — type `xcode-select --install` and accept the prompt. Then repeat the
+steps above.

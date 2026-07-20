@@ -56,6 +56,16 @@ Cite where the tokens came from in the notes file.
 - Double-click the file, or open `file://…` in a browser.
 - Or serve: `python3 -m http.server 8000` then visit `http://localhost:8000/<file>.html`.
 
+## Sharing it (beyond the room)
+The prototype is one self-contained `.html` — no binaries, no install, no external calls; all data
+is embedded sample data. To get it in front of customers or stakeholders:
+- **Best:** a link — internal SharePoint/Drive/Confluence, or any static host (GitHub Pages,
+  Netlify, company static hosting). One file, drag and drop.
+- **Avoid** emailing it zipped: mail filters flag HTML attachments, and "run this attachment"
+  reads badly to a security-conscious recipient even though the file is inert.
+- Anything beyond a quick internal share should go through your org's normal external-sharing
+  review — same as a slide deck.
+
 ## Feedback loop
 Reviewers click **💬 Feedback**, then click any element to pin a numbered comment, then **⬇ Export**
 to download `prototype-feedback.json`. To iterate: read that JSON (each comment has `selector`,
